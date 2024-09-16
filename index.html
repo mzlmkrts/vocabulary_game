@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Game</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./reset.css">
+</head>
+<body>
+    <p>
+        English word is:
+        </p>
+    <div class="english-word">
+        <p id="question"></p>
+        </div>
+    
+    
+    <label for="userInput">Translate to German:</label>
+<input type="text" id="userInput">
+<button onclick="checkTranslation()">Check Translation</button>
+<p id="question"></p>
+<p id="result"></p>
+<p id="score">Correct: 0, Incorrect: 0, Questions Asked: 0</p>
+<p id="gameOver"></p>
+<p id="timer"></p>
+
+<script src="./01.js"></script>
+</body>
+</html>
